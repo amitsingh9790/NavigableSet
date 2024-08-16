@@ -1,4 +1,4 @@
-package TreeSet;
+package SortedSet;
 import java.util.TreeSet;
 
 public class TreeSetDemo {
@@ -16,9 +16,8 @@ public class TreeSetDemo {
         System.out.println("lower: "+TS.lower("Table"));  // return Exactly just previous value
         System.out.println("higher: "+TS.higher("Bag"));  // return Exactly just next value
 
-        System.out.println("ceiling: "+TS.ceiling("Laptop")); // return Equal or next value
         System.out.println("floor: "+TS.floor("Mobile"));     // return Equal or previous value
-
+        System.out.println("ceiling: "+TS.ceiling("Laptop")); // return Equal or next value
 
         System.out.println(TS);
         System.out.println("Is Bottle: "+TS.contains("Bottle"));
