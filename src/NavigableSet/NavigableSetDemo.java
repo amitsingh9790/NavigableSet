@@ -1,4 +1,4 @@
-package NavigableSet;
+package SortedSet;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;
@@ -17,13 +17,11 @@ public class NavigableSetDemo {
         System.out.println("lower: "+NS.lower(10)); // return Exactly just previous value
         System.out.println("higher: "+NS.higher(25)); // return Exactly just next value
 
-        System.out.println("ceiling: "+NS.ceiling(10)); // return Equal or next value
-        System.out.println("floor: "+NS.floor(25));     // return Equal or previous value
+        System.out.println("floor: "+NS.floor(20));     // return Equal or previous value
+        System.out.println("ceiling: "+NS.ceiling(5)); // return Equal or next value
 
-
-        System.out.println(NS);
-        NS.pollFirst(); // remove first lower element
-        NS.pollLast();  // remove last higher element
+        System.out.println("Remove First Lower: "+NS.pollFirst()); // remove first element
+        System.out.println("Remove First Higher: "+NS.pollLast());  // remove last element
         System.out.println(NS);
 
         NS=NS.descendingSet(); // for arranging in descending order
