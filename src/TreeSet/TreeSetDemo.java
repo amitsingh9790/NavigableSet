@@ -8,7 +8,7 @@ public class TreeSetDemo {
         TS.add("Chair");
         TS.add("Bed");
         TS.add("Bag");
-        TS.add("Bottle");
+        TS.add("Bottle"); 
         TS.add("Laptop");
         TS.add("Mobile");
 
