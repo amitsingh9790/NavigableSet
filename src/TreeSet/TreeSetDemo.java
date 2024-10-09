@@ -9,7 +9,7 @@ public class TreeSetDemo {
         TS.add("Bed");
         TS.add("Bag");
         TS.add("Bottle"); 
-        TS.add("Laptop");
+        TS.add("Laptop"); 
         TS.add("Mobile");
 
         System.out.println(TS);
